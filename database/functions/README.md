@@ -1,16 +1,11 @@
 # Functions
 
-Bu klasör OSYS veritabanındaki function'lar hakkında dokümantasyon içerir.
+Bu klasör OSYS veritabanındaki function'lar hakkında esnek teknik notlar içerir.
 
-## Dokümantasyon Formatı
-Her function için ayrı MD dosyası oluşturulur. Dosya adı function adıyla aynı olmalıdır.
+## Dosya İsimlendirme
+Her function için ayrı MD dosyası oluşturulur. Dosya adı: `function_[SchemaName.]FunctionName.md`
 
-**Örnek:** `fn_CalculatePrice.md`, `fn_GetDateRange.md`, `fn_FormatCurrency.md`
+**Örnek:** `function_fn_CalculatePrice.md`, `function_dbo_fn_GetDateRange.md`
 
-## Function Dokümantasyon İçeriği
-Her function dosyası şu bilgileri içerebilir:
-- Function amacı ve kullanımı
-- Parametreler ve açıklamaları
-- Dönüş değeri
-- İş mantığı
-- Kullanım örnekleri
+## Notlar
+İş sürecinde ne gerekiyorsa o yazılır: fonksiyon ne yaptığı, ilişkisi, özel durumlar, kullanım notları vb.

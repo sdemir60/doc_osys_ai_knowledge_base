@@ -1,18 +1,11 @@
-# OSYS Modüller
+# Modules
 
-Bu klasör OSYS'deki modüller hakkında bilgiler içerir.
+Bu klasör OSYS'deki modüller hakkında esnek teknik notlar içerir.
 
-## Modül Dokümantasyonu
-Modül bazlı dokümantasyonlar bu klasör altında oluşturulabilir.
+## Dosya İsimlendirme
+Modül bazlı dokümantasyonlar bu klasör altında oluşturulur.
 
-**Örnek:**
-- `UsedCars.md`
-- `Sales.md`
-- `Finance.md`
+**Örnek:** `UsedCar.md`, `SparePart.md`, `Service.md`
 
-## Modül Dokümantasyon İçeriği
-Her modül dosyası şu bilgileri içerebilir:
-- Modül amacı ve kapsamı
-- Modül yapısı ve organizasyonu
-- Modül içi iletişim pattern'leri
-- Modül özelinde notlar
+## Notlar
+İş sürecinde ne gerekiyorsa o yazılır: modül yapısı, teknik detaylar, özel durumlar vb.

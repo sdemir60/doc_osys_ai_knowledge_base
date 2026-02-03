@@ -1,21 +1,15 @@
-# OSYS Ekranlar
+# Screens
 
-Bu klasör OSYS'deki ekranlar hakkında dokümantasyon içerir.
+Bu klasör OSYS'deki ekranlar hakkında esnek teknik notlar içerir.
 
-## Ekran Dokümantasyonu
+## Dosya İsimlendirme
 Her ekran için menü yolu ile isimlendirilmiş ayrı dokümantasyon dosyası oluşturulur.
 
-**Dosya İsimlendirme Formatı:**
-`ModulAdi_AltMenu_EkranAdi.md`
+**Format:** `ModulAdi_AltMenu_EkranAdi.md`
 
 **Örnek:**
 - `UsedCars_Stok_StokKarti.md`
 - `Sales_Satis_SatisFaturasi.md`
-- `Finance_Muhasebe_CariHesap.md`
 
-## Ekran Dokümantasyon İçeriği
-Her ekran dosyası şu bilgileri içerebilir:
-- Ekran amacı ve kullanımı
-- Ekran özelinde kodlar
-- Custom implementasyonlar
-- Özel notlar ve dikkat edilmesi gerekenler
+## Notlar
+İş sürecinde ne gerekiyorsa o yazılır: ekrandaki bug, teknik detaylar, özel implementasyonlar vb.

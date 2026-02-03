@@ -1,17 +1,11 @@
-# Stored Procedures
+# Procedures
 
-Bu klasör OSYS veritabanındaki stored procedure'ler hakkında dokümantasyon içerir.
+Bu klasör OSYS veritabanındaki stored procedure'ler hakkında esnek teknik notlar içerir.
 
-## Dokümantasyon Formatı
-Her stored procedure için ayrı MD dosyası oluşturulur. Dosya adı procedure adıyla aynı olmalıdır.
+## Dosya İsimlendirme
+Her procedure için ayrı MD dosyası oluşturulur. Dosya adı: `procedure_[SchemaName.]ProcedureName.md`
 
-**Örnek:** `sel_GetStockCardList.md`, `ins_InsertStockCard.md`, `upd_UpdateStockCard.md`
+**Örnek:** `procedure_sel_GetStockCardList.md`, `procedure_dbo_ins_InsertStockCard.md`
 
-## Procedure Dokümantasyon İçeriği
-Her procedure dosyası şu bilgileri içerebilir:
-- Procedure amacı ve kullanımı
-- Parametreler ve açıklamaları
-- Dönen veri yapısı
-- İş mantığı özeti
-- Özel durumlar ve dikkat edilmesi gerekenler
-- Kullanım örnekleri
+## Notlar
+İş sürecinde ne gerekiyorsa o yazılır: procedure ne yaptığı, parametreler, özel durumlar, kullanım notları vb.

@@ -1,16 +1,11 @@
-# Tablolar
+# Tables
 
-Bu klasör OSYS veritabanındaki tablolar hakkında dokümantasyon içerir.
+Bu klasör OSYS veritabanındaki tablolar hakkında esnek teknik notlar içerir.
 
-## Dokümantasyon Formatı
-Her tablo için ayrı MD dosyası oluşturulur. Dosya adı tablo adıyla aynı olmalıdır.
+## Dosya İsimlendirme
+Her tablo için ayrı MD dosyası oluşturulur. Dosya adı: `table_[SchemaName.]TableName.md`
 
-**Örnek:** `StockCard.md`, `Customer.md`, `Invoice.md`
+**Örnek:** `table_StockCard.md`, `table_dbo_Customer.md`
 
-## Tablo Dokümantasyon İçeriği
-Her tablo dosyası şu bilgileri içerebilir:
-- Tablo amacı ve kullanımı
-- Kolonlar ve açıklamaları
-- Primary key, foreign key'ler
-- Index'ler
-- Özel notlar ve dikkat edilmesi gerekenler
+## Notlar
+İş sürecinde ne gerekiyorsa o yazılır: tablo amacı, kolonlar, ilişkiler, özel durumlar vb.

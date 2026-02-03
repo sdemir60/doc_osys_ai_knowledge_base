@@ -1,16 +1,11 @@
-# Görünümler
+# Views
 
-Bu klasör OSYS veritabanındaki view'lar (görünümler) hakkında dokümantasyon içerir.
+Bu klasör OSYS veritabanındaki view'lar hakkında esnek teknik notlar içerir.
 
-## Dokümantasyon Formatı
-Her view için ayrı MD dosyası oluşturulur. Dosya adı view adıyla aynı olmalıdır.
+## Dosya İsimlendirme
+Her view için ayrı MD dosyası oluşturulur. Dosya adı: `view_[SchemaName.]ViewName.md`
 
-**Örnek:** `vwStockCard.md`, `vwCustomerList.md`, `vwInvoiceSummary.md`
+**Örnek:** `view_vwStockCard.md`, `view_dbo_vwCustomerList.md`
 
-## View Dokümantasyon İçeriği
-Her view dosyası şu bilgileri içerebilir:
-- View amacı ve kullanımı
-- View'ın kullandığı tablolar
-- Dönen kolonlar ve açıklamaları
-- Kullanım senaryoları
-- Performans notları
+## Notlar
+İş sürecinde ne gerekiyorsa o yazılır: view amacı, kullandığı tablolar, özel durumlar, performans notları vb.

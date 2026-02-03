@@ -1,16 +1,11 @@
-# İlişkiler
+# Relations
 
-Bu klasör OSYS veritabanındaki tablolar arası ilişkiler hakkında dokümantasyon içerir.
+Bu klasör OSYS veritabanındaki tablolar arası ilişkiler hakkında esnek teknik notlar içerir.
 
-## Dokümantasyon Formatı
-İlişkiler için MD dosyaları oluşturulur. Dosya adı ilişkiyi açıklayıcı olmalıdır.
+## Dosya İsimlendirme
+İlişkiler için MD dosyaları oluşturulur. Dosya adı: `relation_Table1_Table2.md`
 
-**Örnek:** `StockCard_Customer.md`, `Invoice_InvoiceLine.md`
+**Örnek:** `relation_StockCard_Customer.md`, `relation_Invoice_InvoiceLine.md`
 
-## İlişki Dokümantasyon İçeriği
-Her ilişki dosyası şu bilgileri içerebilir:
-- İlişki tipi (One-to-One, One-to-Many, Many-to-Many)
-- İlgili tablolar
-- Foreign key detayları
-- Cascade kuralları
-- İş mantığı ve kullanım senaryoları
+## Notlar
+İş sürecinde ne gerekiyorsa o yazılır: ilişki tipi, foreign key detayları, cascade kuralları, özel durumlar vb.

@@ -16,7 +16,7 @@ Her OSYS workspace'inde `.cursor/rules/PROJECT_RULES.md` dosyası oluşturup, bu
 Bu proje OSYS mimari yapısını takip eder.
 
 ## Kurallar
-- @doc_osys_ai_knowledge_base/.osys/cursor-project-rules.md
+- @doc_osys_ai_knowledge_base/.cursor-osys/cursor-project-rules.md
 
 ## Öncelik
 Her soru veya kod önerisi için öncelikle `doc_osys_ai_knowledge_base` klasöründeki dokümantasyonları kullan.

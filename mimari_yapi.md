@@ -1,9 +1,3 @@
-Aşağıda verdiğin Notion içeriğini **metinlere dokunmadan**, yalnızca **Markdown (MD) formatına** çevirdim.
-Başlık yapıları, kod blokları, alıntılar ve aside’lar MD uyumlu hale getirildi.
-
----
-
-````md
 # Genel Yapı
 
 ## 🧩 Client

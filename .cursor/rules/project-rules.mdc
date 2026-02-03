@@ -1,3 +1,8 @@
+---
+name: project-rules
+description: OSYS AI Knowledge Base proje kuralları - dokümantasyon yazma ve güncelleme odaklı
+---
+
 # OSYS AI Knowledge Base Proje Kuralları
 
 Bu proje OSYS projesi için AI destekli dokümantasyon ve bilgi tabanıdır.
@@ -9,13 +14,13 @@ Bu proje OSYS projesi için AI destekli dokümantasyon ve bilgi tabanıdır.
 
 ## Dokümantasyon Yapısı
 - `mimari_yapi.md`: OSYS mimari yapısı ve katmanlar
-- `standartlar/`: Proje yapısı, kodlama, tasarım, veritabanı standartları
-- `moduller/`: Modüller hakkında bilgiler
-- `ekranlar/`: Ekranlar ve ekran özelinde kodlar (menü yolu ile isimlendirilmiş)
-- `veritabani/`: Veritabanı objeleri (tablolar, prosedürler, görünümler, fonksiyonlar, ilişkiler)
 - `gozlemler_ve_notlar.md`: Sorunlu görülen alanlar ve notlar
-- `surecler/`: Süreçler hakkında detaylı bilgiler
-- `.osys/`: Cursor AI ayarları ve şablonları
+- `standards/`: Proje yapısı, kodlama, tasarım, veritabanı standartları
+- `modules/`: Modüller hakkında bilgiler
+- `screens/`: Ekranlar ve ekran özelinde kodlar (menü yolu ile isimlendirilmiş)
+- `database/`: Veritabanı objeleri (tables, procedures, views, functions, relations)
+- `processes/`: Süreçler hakkında detaylı bilgiler
+- `.cursor-osys/`: Cursor AI ayarları ve şablonları
 
 ## Çalışma Prensibi
 1. Bu projede çalışırken dokümantasyon yazma ve güncelleme odaklı ol
@@ -25,12 +30,13 @@ Bu proje OSYS projesi için AI destekli dokümantasyon ve bilgi tabanıdır.
 5. Yeni klasör/dosya oluştururken mevcut yapıya uygun isimlendirme kullan
 
 ## Dokümantasyon Ekleme/Güncelleme Kuralları
-- Ekran dokümantasyonu → `ekranlar/ModulAdi_AltMenu_EkranAdi.md` formatında
-- Veritabanı objesi → `veritabani/` altındaki ilgili klasöre (tablolar, prosedürler, görünümler, fonksiyonlar, ilişkiler)
-- Modül bilgisi → `moduller/` klasörüne
-- Standart → `standartlar/` altındaki ilgili dosyaya
-- Süreç → `surecler/` altındaki ilgili dosyaya
+- Ekran dokümantasyonu → `screens/ModulAdi_AltMenu_EkranAdi.md` formatında
+- Veritabanı objesi → `database/` altındaki ilgili klasöre (tables, procedures, views, functions, relations)
+- Modül bilgisi → `modules/` klasörüne
+- Standart → `standards/` altındaki ilgili dosyaya
+- Süreç → `processes/` altındaki ilgili dosyaya
 - Gözlem/Not → `gozlemler_ve_notlar.md` dosyasına
+- Mimari bilgisi → `mimari_yapi.md` dosyasına
 
 ## Önemli Notlar
 - Bu proje dokümantasyon projesidir, kod yazma projesi değil

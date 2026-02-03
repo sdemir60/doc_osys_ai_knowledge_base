@@ -1,31 +1,37 @@
 ---
 name: project-rules
-description: OSYS AI Knowledge Base proje kuralları - dokümantasyon yazma ve güncelleme odaklı
+description: OSYS proje kuralları - genel OSYS kuralları ve dokümantasyon yazma odaklı
 ---
 
-# OSYS AI Knowledge Base Proje Kuralları
+# OSYS Proje Kuralları
 
-Bu proje OSYS projesi için AI destekli dokümantasyon ve bilgi tabanıdır.
+## Öncelikli Bilgi Kaynağı
+Bu OSYS projesi OSYS mimari yapısını takip eder. **Her soru veya kod önerisi için öncelikle workspace'teki `doc_osys_ai_knowledge_base` klasöründeki tüm dokümantasyonları kullan.**
 
-## Proje Amacı
-OSYS projesi hakkında dokümantasyon tutmak ve Cursor AI ile çalışırken bu dokümantasyonları kullanmak.
-
-## Dokümantasyon Yapısı
+## Dokümantasyon Yapısı (doc_osys_ai_knowledge_base)
+Workspace'teki `doc_osys_ai_knowledge_base` klasöründeki dokümantasyon yapısı:
 - `mimari_yapi.md`: OSYS mimari yapısı ve katmanlar
 - `gozlemler_ve_notlar.md`: Gözlemler, notlar ve farklı fikirler
-- `standards/`: Proje yapısı, kodlama, tasarım, veritabanı standartları
+- `standards/`: Standartlar (proje yapısı, kodlama, tasarım, veritabanı...)
 - `modules/`: Modüller hakkında bilgiler
 - `screens/`: Ekranlar ve ekran özelinde kodlar (menü yolu ile isimlendirilmiş)
 - `database/`: Veritabanı objeleri (tables, procedures, views, functions, relations)
-- `processes/`: Süreçler hakkında detaylı bilgiler
-- `.cursor-osys/`: Cursor AI ayarları ve şablonları
+- `processes/`: Süreçler (dil tanımı, parametre tanımları, onay süreçleri, entegrasyonlar, transaction kullanımı, hata ayıklama, sorunlar ve çözümler...)
 
-## Çalışma Prensibi
-1. Bu projede çalışırken dokümantasyon yazma ve güncelleme odaklı ol
-2. Yeni bilgi eklendiğinde ilgili klasör/dosyaya ekle
+## Çalışma Prensibi (Genel OSYS Projeleri)
+1. Her soru için önce workspace'teki `doc_osys_ai_knowledge_base` klasöründeki ilgili dokümantasyonu kontrol et
+2. Kod önerisi verirken OSYS mimarisini dikkate al (detaylar için workspace'teki `doc_osys_ai_knowledge_base/mimari_yapi.md` dosyasına bak)
+3. Mimariyi dikkate al, ancak iyileştirme önerilerinde bulunmaktan çekinme - yeniliğin önünü kapatma
+4. Yeni öğrenilen bilgileri workspace'teki `doc_osys_ai_knowledge_base` klasöründeki ilgili dokümantasyon dosyasına ekle
+
+## Çalışma Prensibi (Dokümantasyon Yazma)
+Kullanıcı "doküman yaz", "dokümantasyon", "not ekle", "dokümantasyon güncelle" gibi komutlar verdiğinde:
+1. `doc_osys_ai_knowledge_base` projesinde dokümantasyon yazma ve güncelleme odaklı çalış
+2. Yeni bilgi eklendiğinde workspace'teki `doc_osys_ai_knowledge_base` klasöründeki ilgili klasör/dosyaya ekle
 3. Dokümantasyon formatını koru (Markdown, Türkçe)
 
 ## Dokümantasyon Ekleme/Güncelleme Kuralları
+Dokümantasyon yazma komutlarında, workspace'teki `doc_osys_ai_knowledge_base` klasöründe:
 - Ekran dokümantasyonu → `screens/ModulAdi_AltMenu_EkranAdi.md` formatında
 - Veritabanı objesi → `database/` altındaki ilgili klasöre (tables, procedures, views, functions, relations)
 - Modül bilgisi → `modules/` klasörüne
@@ -35,4 +41,6 @@ OSYS projesi hakkında dokümantasyon tutmak ve Cursor AI ile çalışırken bu 
 - Mimari bilgisi → `mimari_yapi.md` dosyasına
 
 ## Önemli Notlar
-Bu proje dokümantasyon projesidir, kod yazma projesi değil.
+- Bu OSYS projesi için workspace'teki `doc_osys_ai_knowledge_base` klasörü dokümantasyon ve bilgi tabanıdır
+- Genel sorularda OSYS mimarisini dikkate al ve `doc_osys_ai_knowledge_base` klasöründeki dokümantasyonları kullan
+- Dokümantasyon yazma komutlarında `doc_osys_ai_knowledge_base` klasöründe dokümantasyon odaklı çalış
